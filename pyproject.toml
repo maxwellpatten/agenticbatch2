@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "arxiv>=2.2.0",
+    "bs4>=0.0.2",
     "ipykernel>=6.29.5",
     "ipython>=9.2.0",
     "langchain>=0.3.25",
@@ -12,8 +14,12 @@ dependencies = [
     "langchain-core>=0.3.61",
     "langchain-groq>=0.3.2",
     "langchain-openai>=0.3.18",
+    "lxml>=5.4.0",
     "matplotlib>=3.10.3",
     "pandas>=2.2.3",
     "pydantic>=2.11.4",
+    "pymupdf>=1.26.0",
+    "pypdf>=5.5.0",
     "python-dotenv>=1.1.0",
+    "wikipedia>=1.4.0",
 ]
